@@ -1,0 +1,42 @@
+body{
+    padding: 20px;
+}
+
+.img{
+    width: 140px;
+    border-radius: 10px;
+
+}
+
+
+.card{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: #BEE5BF ;
+    padding: 20px;
+    border-radius: 10px;
+    border-bottom: 4px solid #d8cefe;
+
+}
+
+.content{
+    padding-top: 10px;
+    text-align: center;
+    color: #493657;
+}
+
+
+.card:hover{
+    background-color: antiquewhite;
+    border-bottom: 4px solid #C5BAAF;
+}
+.card:hover > .img{
+    transform: scale(1.025);
+}
+
+.card:hover> .content{
+    transform: scale(1.035);
+}
